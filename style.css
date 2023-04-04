@@ -1,0 +1,61 @@
+.parent{
+   
+   display: flex;
+   flex-direction: column;
+   
+   align-items: center;
+   justify-content: center;
+  
+   height: 600px;
+   gap: 20px;
+  
+
+    
+}
+#input-txt {
+   width: 500px;
+   height: 30px;
+   padding-left: 10px;
+   border-radius:10px ;
+   box-shadow: 0px 0px 10px rgb(181, 180, 180);
+   border: none;
+}
+.add-button{
+   height: 35px;
+   width: 65px; 
+   background-color: royalblue;
+   color: white;
+   border-radius: 10px;
+}
+.input-button{
+   display: flex;
+   gap: 10px;
+   
+}
+#h-td1 ,#h-td3{
+ 
+       width: 150px; 
+      
+       background-color: red;
+       color: white;
+           
+}
+#h-td2{
+   width: 400px;
+   background-color: red;
+   color: white;
+}
+td{
+  text-align: center;  
+   height: 30px;
+   
+}
+i{
+   color: #ff0000; 
+}
+.even{
+   background-color:wheat ;
+}
+.odd{
+   background-color:blue ;
+}
